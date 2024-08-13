@@ -6,5 +6,5 @@ using System.Threading.Tasks;
 
 namespace NGH_TextRPG
 {
-    public enum Scene { Title, Hometown, Shop, Trainingroom, Devilcastle, Playerinfo, Size }
+    public enum SceneType { Title, Hometown, Shop, Trainingroom, Devilcastle, Playerinfo, Battle, Size }
 }
