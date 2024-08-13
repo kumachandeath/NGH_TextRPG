@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NGH_TextRPG.Scene
+namespace NGH_TextRPG.SceneFolder
 {
-    internal class Class1
+    internal class TrainingRoomScene
     {
     }
 }

@@ -6,7 +6,7 @@ using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NGH_TextRPG
+namespace NGH_TextRPG.PlayerFolder
 {
     public class Player
     {

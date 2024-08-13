@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NGH_TextRPG.Monster
+namespace NGH_TextRPG.MonsterFolder
 {
-    internal class Class1
+    internal class Monster
     {
     }
 }
