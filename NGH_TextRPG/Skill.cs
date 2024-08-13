@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace NGH_TextRPG
 {
-    internal class Skill
+    public abstract class Skills
     {
+        
+        public abstract void Skill();
+        
     }
 }
