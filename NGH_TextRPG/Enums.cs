@@ -6,7 +6,5 @@ using System.Threading.Tasks;
 
 namespace NGH_TextRPG
 {
-    internal class Class1
-    {
-    }
+    public enum Scene { Title, Hometown, Shop, Trainingroom, Devilcastle, Playerinfo, Size }
 }
