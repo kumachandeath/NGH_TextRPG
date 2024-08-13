@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace NGH_TextRPG
 {
-    public struct StatusData
+    public class StatusData
     {
         public int hp;
         public int attack;
