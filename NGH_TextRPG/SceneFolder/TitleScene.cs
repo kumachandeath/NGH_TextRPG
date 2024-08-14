@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace NGH_TextRPG.SceneFolder
 {
-    internal class TitleScene
+    internal class TitleScene : Scene
     {
     }
 }
