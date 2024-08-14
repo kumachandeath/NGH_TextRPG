@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace NGH_TextRPG.MonsterFolder
 {
-    internal class Class1
+    internal class MonsterDictionary : Monster
     {
+
     }
 }
