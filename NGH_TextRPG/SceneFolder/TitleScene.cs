@@ -38,6 +38,7 @@ namespace NGH_TextRPG.SceneFolder
             Thread.Sleep(2000);
             Console.WriteLine("검사의 여행!");
             Thread.Sleep(2000);
+            Console.WriteLine("시작하려면 아무 키나 누르세요.");
         }
 
         public override void Update()
