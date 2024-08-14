@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace NGH_TextRPG.PlayerFolder
 {
-    internal class Class1
+    internal class Inventory
     {
     }
 }
