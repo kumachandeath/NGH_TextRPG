@@ -10,25 +10,36 @@ namespace NGH_TextRPG.PlayerFolder
 {
     public class Player
     {
-        StatusData playerStatusData = new StatusData();
+        public int curHP;
+        public int maxHP;
+        public int attack;
+        public int defense;
+        public float critical;
+        public float evasion;
+
+        public int exp;
+        public int reqExp;
+        public int level;
+        public int gold;
 
         public Player()
         {
-            playerStatusData.maxHP = 50;
-            playerStatusData.curHP = playerStatusData.maxHP;
-            playerStatusData.attack = 10;
-            playerStatusData.defense = 10;
-            playerStatusData.critical = 5.0f;
-            playerStatusData.evasion = 5.0f;
+            maxHP = 50;
+            curHP = maxHP;
+            attack = 10;
+            defense = 10;
+            critical = 5.0f;
+            evasion = 5.0f;
 
-            playerStatusData.exp = 0;
-            playerStatusData.level = 1;
-            playerStatusData.gold = 0;
+            exp = 0;
+            reqExp = 5;
+            level = 1;
+            gold = 0;
         }
 
         public int LevelUp(int exp)
         {
-            return playerStatusData.level++;
+            return level++;
         }
     }
 }
