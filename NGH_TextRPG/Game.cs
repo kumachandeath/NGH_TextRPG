@@ -20,6 +20,7 @@ namespace NGH_TextRPG
         public static int daysLeft = 100;
 
         public Player player = new Player();
+        public Equipment equipment = new Equipment();
 
         public void Run()
         {
