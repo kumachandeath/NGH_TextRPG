@@ -6,13 +6,13 @@ using System.Threading.Tasks;
 
 namespace NGH_TextRPG.PlayerFolder
 {
-    public class Equipment : Player
+    public class Equipment
     {
         public string weapon;
         public string armor;
         public string accesory;
 
-        public Equipment(Game game)
+        public Equipment()
         {
             weapon = "목검";
             armor = "천갑옷";
