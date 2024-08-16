@@ -6,7 +6,32 @@ using System.Threading.Tasks;
 
 namespace NGH_TextRPG.PlayerFolder
 {
-    internal class Equipment
+    public class Equipment : Player
     {
+        public string weapon;
+        public string armor;
+        public string accesory;
+
+        public Equipment(Game game)
+        {
+            weapon = "목검";
+            armor = "천갑옷";
+            accesory = "없음";
+        }
+
+        public string ChangeWeapon(string name)
+        {
+            return name;
+        }
+
+        public string ChangeArmor(string name)
+        {
+            return name;
+        }
+
+        public string ChangeAccessory(string name)
+        {
+            return name;
+        }
     }
 }
