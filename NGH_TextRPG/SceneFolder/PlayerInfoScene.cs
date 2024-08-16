@@ -14,7 +14,9 @@ namespace NGH_TextRPG.SceneFolder
         }
         public override void Enter()
         {
+            Console.Clear();
             Console.WriteLine("플레이어의 상태를 표시합니다.");
+            Thread.Sleep(2000);
         }
 
         public override void Exit()
