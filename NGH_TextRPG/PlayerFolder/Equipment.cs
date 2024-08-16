@@ -21,16 +21,19 @@ namespace NGH_TextRPG.PlayerFolder
 
         public string ChangeWeapon(string name)
         {
+            // 이름을 넣으면 그에 맞는 스탯으로 변경하는 기능 구현.
             return name;
         }
 
         public string ChangeArmor(string name)
         {
+            // 이름을 넣으면 그에 맞는 스탯으로 변경하는 기능 구현.
             return name;
         }
 
         public string ChangeAccessory(string name)
         {
+            // 이름을 넣으면 그에 맞는 스탯으로 변경하는 기능 구현.
             return name;
         }
     }
