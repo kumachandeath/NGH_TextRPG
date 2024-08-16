@@ -39,7 +39,21 @@ namespace NGH_TextRPG.PlayerFolder
 
         public int LevelUp(int exp)
         {
-            return level++;
+            this.exp += exp;
+
+            if (reqExp < this.exp)
+            {
+                maxHP += 10;
+                curHP += 10;
+                attack += 1;
+                defense += 1;
+                critical += 1;
+                evasion += 1;
+                this.exp -= reqExp;
+                return level++;
+            }
+
+            return level;
         }
     }
 }
